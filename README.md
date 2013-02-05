@@ -6,6 +6,8 @@ A tornado client for tinyfeedback
 example:
 
 ```
+from tornadotinyfeedback import Client
+
 def callback(response):
     if response.code == 200:
         print 'data sent'
